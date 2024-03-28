@@ -5,7 +5,7 @@ function validateLogin() {
 
     if (username === 'grishma' && password === '0918') {
         // Redirect to index.html upon successful login
-        window.location.href = 'index.html';
+        window.location.href = 'home.html';
         return false; // Prevent form submission
     } else {
         // Invalid credentials, show error message
